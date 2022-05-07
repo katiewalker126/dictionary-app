@@ -1,0 +1,13 @@
+.Phonetics {
+  margin-top: 15px;
+}
+
+.Phonetics .phonetics-audio {
+  margin: 0 18px 0 4px;
+  color: #147de5;
+  font-size: 22px;
+}
+
+.Phonetics .phonetics-audio:hover {
+  color: #0539aa;
+}

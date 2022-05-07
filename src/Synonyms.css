@@ -1,0 +1,15 @@
+.Synonyms {
+  padding: 0;
+}
+.Synonyms span {
+  font-weight: 450;
+}
+
+.Synonyms span,
+li {
+  font-size: 16px;
+  color: #0539aa;
+  opacity: 0.8;
+  display: inline-block;
+  padding-right: 20px;
+}

@@ -1,4 +1,13 @@
-.App-header {
-  text-align: center;
+body {
+  background: #e5effc;
+}
+
+.App .app-header {
   margin: 30px 0;
+}
+
+.App h1 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
 }
