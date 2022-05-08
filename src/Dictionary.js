@@ -64,7 +64,19 @@ export default function Dictionary(props) {
           </form>
         </section>
         <Results results={results} />
-        <Photos photos={photos} />
+        <section>
+          <Photos photos={photos} />
+        </section>
+        <footer>
+          <a
+            href="https://github.com/katiewalker126/dictionary-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by Katie Walker
+        </footer>
       </div>
     );
   } else {

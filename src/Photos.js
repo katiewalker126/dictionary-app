@@ -4,10 +4,9 @@ import "./Photos.css";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <section className="Photos">
+      <div className="Photos">
         <div className="row">
           {props.photos.map(function (photos, index) {
-            console.log(photos);
             return (
               <div className="col-4" key={index}>
                 <a
@@ -25,7 +24,7 @@ export default function Photos(props) {
             );
           })}
         </div>
-      </section>
+      </div>
     );
   } else {
     return null;

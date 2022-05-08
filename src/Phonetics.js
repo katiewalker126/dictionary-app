@@ -10,9 +10,9 @@ export default function Phonetics(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa-solid fa-volume-high"></i>
+        <i className="fa-solid fa-volume-high"></i>
       </a>
-      <span class="phonetics-text">{props.phonetics.text}</span>
+      <span className="phonetics-text">{props.phonetics.text}</span>
     </div>
   );
 }
