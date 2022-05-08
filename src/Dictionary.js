@@ -64,9 +64,7 @@ export default function Dictionary(props) {
           </form>
         </section>
         <Results results={results} />
-        <section>
-          <Photos photos={photos} />
-        </section>
+        <Photos photos={photos} />
         <footer>
           <a
             href="https://github.com/katiewalker126/dictionary-app"
