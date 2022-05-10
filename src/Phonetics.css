@@ -10,4 +10,5 @@
 
 .Phonetics .phonetics-audio:hover {
   color: #0539aa;
+  transition: all 150ms ease-in-out;
 }

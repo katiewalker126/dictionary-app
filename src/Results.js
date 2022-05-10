@@ -10,10 +10,10 @@ export default function Results(props) {
         <section>
           <h2>{props.results.word}</h2>
           {props.results.phonetics
-            .filter(function (phonetics) {
+            .filter(function(phonetics) {
               return phonetics.audio;
             })
-            .map(function (phonetics, index) {
+            .map(function(phonetics, index) {
               if (index <= 0) {
                 return (
                   <div key={index}>
@@ -25,7 +25,7 @@ export default function Results(props) {
               }
             })}
         </section>
-        {props.results.meanings.map(function (meanings, index) {
+        {props.results.meanings.map(function(meanings, index) {
           return (
             <section key={index}>
               <Meanings meanings={meanings} />
